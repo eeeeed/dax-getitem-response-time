@@ -31,8 +31,7 @@ implements RequestHandler<Map<String, Object>, ApiGatewayResponse> {
 
 //         AmazonDynamoDB client = AmazonDynamoDBClientBuilder.defaultClient();
          
-//         BasicAWSCredentials awsCreds = new BasicAWSCredentials(
-//             "AKIAZBUC3HGGYZM6HCNY", "F5uuQ8SntJney3t4oOgIG2zxhVCvWIoV1jhLxw5H");
+//         BasicAWSCredentials awsCreds = new BasicAWSCredentials();
 //         client = AmazonDynamoDBClientBuilder.standard()
 //             .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
 //             .withRegion(Regions.fromName("us-west-1")).build();
